@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 const ThemeContext = React.createContext('light');
-function ContextApp( ) {
+function ContextHook( ) {
     return (
         <ThemeContext.Provider value='lavender'>
             <Toolbar />
@@ -35,4 +35,4 @@ function Button( ) {
             <button>확인</button>
         </div> )
 }
-export default ContextApp;
+export default ContextHook;
